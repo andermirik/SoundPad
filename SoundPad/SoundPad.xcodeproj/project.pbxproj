@@ -1,0 +1,1167 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD6961227B489B800E0A78F /* SoundPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6961127B489B800E0A78F /* SoundPadApp.swift */; };
+		EDD6961427B489B800E0A78F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6961327B489B800E0A78F /* ContentView.swift */; };
+		EDD6961627B489B800E0A78F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD6961527B489B800E0A78F /* Assets.xcassets */; };
+		EDD6961927B489B800E0A78F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD6961827B489B800E0A78F /* Preview Assets.xcassets */; };
+		EDD6962327B489B900E0A78F /* SoundPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6962227B489B900E0A78F /* SoundPadTests.swift */; };
+		EDD6962D27B489B900E0A78F /* SoundPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6962C27B489B900E0A78F /* SoundPadUITests.swift */; };
+		EDD6962F27B489B900E0A78F /* SoundPadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6962E27B489B900E0A78F /* SoundPadUITestsLaunchTests.swift */; };
+		EDD6963327B489B900E0A78F /* SoundPad WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EDD6963227B489B900E0A78F /* SoundPad WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDD6963827B489B900E0A78F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD6963727B489B900E0A78F /* Assets.xcassets */; };
+		EDD6963E27B489B900E0A78F /* SoundPad WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EDD6963D27B489B900E0A78F /* SoundPad WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDD6964327B489B900E0A78F /* SoundPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6964227B489B900E0A78F /* SoundPadApp.swift */; };
+		EDD6964527B489B900E0A78F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6964427B489B900E0A78F /* ContentView.swift */; };
+		EDD6964727B489B900E0A78F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6964627B489B900E0A78F /* NotificationController.swift */; };
+		EDD6964927B489B900E0A78F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6964827B489B900E0A78F /* NotificationView.swift */; };
+		EDD6964B27B489B900E0A78F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6964A27B489B900E0A78F /* ComplicationController.swift */; };
+		EDD6964D27B489BA00E0A78F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD6964C27B489BA00E0A78F /* Assets.xcassets */; };
+		EDD6965027B489BA00E0A78F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD6964F27B489BA00E0A78F /* Preview Assets.xcassets */; };
+		EDD6965C27B489BA00E0A78F /* SoundPad_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6965B27B489BA00E0A78F /* SoundPad_WatchKit_AppTests.swift */; };
+		EDD6966627B489BA00E0A78F /* SoundPad_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6966527B489BA00E0A78F /* SoundPad_WatchKit_AppUITests.swift */; };
+		EDD6966827B489BA00E0A78F /* SoundPad_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6966727B489BA00E0A78F /* SoundPad_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDD6961F27B489B900E0A78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD6960627B489B800E0A78F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD6960D27B489B800E0A78F;
+			remoteInfo = SoundPad;
+		};
+		EDD6962927B489B900E0A78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD6960627B489B800E0A78F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD6960D27B489B800E0A78F;
+			remoteInfo = SoundPad;
+		};
+		EDD6963427B489B900E0A78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD6960627B489B800E0A78F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD6963127B489B900E0A78F;
+			remoteInfo = "SoundPad WatchKit App";
+		};
+		EDD6963F27B489B900E0A78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD6960627B489B800E0A78F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD6963C27B489B900E0A78F;
+			remoteInfo = "SoundPad WatchKit Extension";
+		};
+		EDD6965827B489BA00E0A78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD6960627B489B800E0A78F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD6963C27B489B900E0A78F;
+			remoteInfo = "SoundPad WatchKit Extension";
+		};
+		EDD6966227B489BA00E0A78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD6960627B489B800E0A78F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD6963127B489B900E0A78F;
+			remoteInfo = "SoundPad WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDD6966E27B489BA00E0A78F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EDD6963E27B489B900E0A78F /* SoundPad WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6967227B489BA00E0A78F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EDD6963327B489B900E0A78F /* SoundPad WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EDD6960E27B489B800E0A78F /* SoundPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD6961127B489B800E0A78F /* SoundPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPadApp.swift; sourceTree = "<group>"; };
+		EDD6961327B489B800E0A78F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDD6961527B489B800E0A78F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDD6961827B489B800E0A78F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDD6961E27B489B900E0A78F /* SoundPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD6962227B489B900E0A78F /* SoundPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPadTests.swift; sourceTree = "<group>"; };
+		EDD6962827B489B900E0A78F /* SoundPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD6962C27B489B900E0A78F /* SoundPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPadUITests.swift; sourceTree = "<group>"; };
+		EDD6962E27B489B900E0A78F /* SoundPadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDD6963227B489B900E0A78F /* SoundPad WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SoundPad WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD6963727B489B900E0A78F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDD6963D27B489B900E0A78F /* SoundPad WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SoundPad WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD6964227B489B900E0A78F /* SoundPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPadApp.swift; sourceTree = "<group>"; };
+		EDD6964427B489B900E0A78F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDD6964627B489B900E0A78F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		EDD6964827B489B900E0A78F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		EDD6964A27B489B900E0A78F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		EDD6964C27B489BA00E0A78F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDD6964F27B489BA00E0A78F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDD6965127B489BA00E0A78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD6965227B489BA00E0A78F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		EDD6965727B489BA00E0A78F /* SoundPad WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundPad WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD6965B27B489BA00E0A78F /* SoundPad_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPad_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		EDD6966127B489BA00E0A78F /* SoundPad WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundPad WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD6966527B489BA00E0A78F /* SoundPad_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPad_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		EDD6966727B489BA00E0A78F /* SoundPad_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPad_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD6960B27B489B800E0A78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6961B27B489B900E0A78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6962527B489B900E0A78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6963A27B489B900E0A78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6965427B489BA00E0A78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6965E27B489BA00E0A78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD6960527B489B800E0A78F = {
+			isa = PBXGroup;
+			children = (
+				EDD6961027B489B800E0A78F /* SoundPad */,
+				EDD6962127B489B900E0A78F /* SoundPadTests */,
+				EDD6962B27B489B900E0A78F /* SoundPadUITests */,
+				EDD6963627B489B900E0A78F /* SoundPad WatchKit App */,
+				EDD6964127B489B900E0A78F /* SoundPad WatchKit Extension */,
+				EDD6965A27B489BA00E0A78F /* SoundPad WatchKit AppTests */,
+				EDD6966427B489BA00E0A78F /* SoundPad WatchKit AppUITests */,
+				EDD6960F27B489B800E0A78F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD6960F27B489B800E0A78F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6960E27B489B800E0A78F /* SoundPad.app */,
+				EDD6961E27B489B900E0A78F /* SoundPadTests.xctest */,
+				EDD6962827B489B900E0A78F /* SoundPadUITests.xctest */,
+				EDD6963227B489B900E0A78F /* SoundPad WatchKit App.app */,
+				EDD6963D27B489B900E0A78F /* SoundPad WatchKit Extension.appex */,
+				EDD6965727B489BA00E0A78F /* SoundPad WatchKit AppTests.xctest */,
+				EDD6966127B489BA00E0A78F /* SoundPad WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD6961027B489B800E0A78F /* SoundPad */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6961127B489B800E0A78F /* SoundPadApp.swift */,
+				EDD6961327B489B800E0A78F /* ContentView.swift */,
+				EDD6961527B489B800E0A78F /* Assets.xcassets */,
+				EDD6961727B489B800E0A78F /* Preview Content */,
+			);
+			path = SoundPad;
+			sourceTree = "<group>";
+		};
+		EDD6961727B489B800E0A78F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6961827B489B800E0A78F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDD6962127B489B900E0A78F /* SoundPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6962227B489B900E0A78F /* SoundPadTests.swift */,
+			);
+			path = SoundPadTests;
+			sourceTree = "<group>";
+		};
+		EDD6962B27B489B900E0A78F /* SoundPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6962C27B489B900E0A78F /* SoundPadUITests.swift */,
+				EDD6962E27B489B900E0A78F /* SoundPadUITestsLaunchTests.swift */,
+			);
+			path = SoundPadUITests;
+			sourceTree = "<group>";
+		};
+		EDD6963627B489B900E0A78F /* SoundPad WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6963727B489B900E0A78F /* Assets.xcassets */,
+			);
+			path = "SoundPad WatchKit App";
+			sourceTree = "<group>";
+		};
+		EDD6964127B489B900E0A78F /* SoundPad WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6964227B489B900E0A78F /* SoundPadApp.swift */,
+				EDD6964427B489B900E0A78F /* ContentView.swift */,
+				EDD6964627B489B900E0A78F /* NotificationController.swift */,
+				EDD6964827B489B900E0A78F /* NotificationView.swift */,
+				EDD6964A27B489B900E0A78F /* ComplicationController.swift */,
+				EDD6964C27B489BA00E0A78F /* Assets.xcassets */,
+				EDD6965127B489BA00E0A78F /* Info.plist */,
+				EDD6965227B489BA00E0A78F /* PushNotificationPayload.apns */,
+				EDD6964E27B489BA00E0A78F /* Preview Content */,
+			);
+			path = "SoundPad WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		EDD6964E27B489BA00E0A78F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6964F27B489BA00E0A78F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDD6965A27B489BA00E0A78F /* SoundPad WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6965B27B489BA00E0A78F /* SoundPad_WatchKit_AppTests.swift */,
+			);
+			path = "SoundPad WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		EDD6966427B489BA00E0A78F /* SoundPad WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6966527B489BA00E0A78F /* SoundPad_WatchKit_AppUITests.swift */,
+				EDD6966727B489BA00E0A78F /* SoundPad_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "SoundPad WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD6960D27B489B800E0A78F /* SoundPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD6967327B489BA00E0A78F /* Build configuration list for PBXNativeTarget "SoundPad" */;
+			buildPhases = (
+				EDD6960A27B489B800E0A78F /* Sources */,
+				EDD6960B27B489B800E0A78F /* Frameworks */,
+				EDD6960C27B489B800E0A78F /* Resources */,
+				EDD6967227B489BA00E0A78F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD6963527B489B900E0A78F /* PBXTargetDependency */,
+			);
+			name = SoundPad;
+			productName = SoundPad;
+			productReference = EDD6960E27B489B800E0A78F /* SoundPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDD6961D27B489B900E0A78F /* SoundPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD6967627B489BA00E0A78F /* Build configuration list for PBXNativeTarget "SoundPadTests" */;
+			buildPhases = (
+				EDD6961A27B489B900E0A78F /* Sources */,
+				EDD6961B27B489B900E0A78F /* Frameworks */,
+				EDD6961C27B489B900E0A78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD6962027B489B900E0A78F /* PBXTargetDependency */,
+			);
+			name = SoundPadTests;
+			productName = SoundPadTests;
+			productReference = EDD6961E27B489B900E0A78F /* SoundPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDD6962727B489B900E0A78F /* SoundPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD6967927B489BA00E0A78F /* Build configuration list for PBXNativeTarget "SoundPadUITests" */;
+			buildPhases = (
+				EDD6962427B489B900E0A78F /* Sources */,
+				EDD6962527B489B900E0A78F /* Frameworks */,
+				EDD6962627B489B900E0A78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD6962A27B489B900E0A78F /* PBXTargetDependency */,
+			);
+			name = SoundPadUITests;
+			productName = SoundPadUITests;
+			productReference = EDD6962827B489B900E0A78F /* SoundPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EDD6963127B489B900E0A78F /* SoundPad WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD6966F27B489BA00E0A78F /* Build configuration list for PBXNativeTarget "SoundPad WatchKit App" */;
+			buildPhases = (
+				EDD6963027B489B900E0A78F /* Resources */,
+				EDD6966E27B489BA00E0A78F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD6964027B489B900E0A78F /* PBXTargetDependency */,
+			);
+			name = "SoundPad WatchKit App";
+			productName = "SoundPad WatchKit App";
+			productReference = EDD6963227B489B900E0A78F /* SoundPad WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EDD6963C27B489B900E0A78F /* SoundPad WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD6966B27B489BA00E0A78F /* Build configuration list for PBXNativeTarget "SoundPad WatchKit Extension" */;
+			buildPhases = (
+				EDD6963927B489B900E0A78F /* Sources */,
+				EDD6963A27B489B900E0A78F /* Frameworks */,
+				EDD6963B27B489B900E0A78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SoundPad WatchKit Extension";
+			productName = "SoundPad WatchKit Extension";
+			productReference = EDD6963D27B489B900E0A78F /* SoundPad WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		EDD6965627B489BA00E0A78F /* SoundPad WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD6967C27B489BA00E0A78F /* Build configuration list for PBXNativeTarget "SoundPad WatchKit AppTests" */;
+			buildPhases = (
+				EDD6965327B489BA00E0A78F /* Sources */,
+				EDD6965427B489BA00E0A78F /* Frameworks */,
+				EDD6965527B489BA00E0A78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD6965927B489BA00E0A78F /* PBXTargetDependency */,
+			);
+			name = "SoundPad WatchKit AppTests";
+			productName = "SoundPad WatchKit AppTests";
+			productReference = EDD6965727B489BA00E0A78F /* SoundPad WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDD6966027B489BA00E0A78F /* SoundPad WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD6967F27B489BA00E0A78F /* Build configuration list for PBXNativeTarget "SoundPad WatchKit AppUITests" */;
+			buildPhases = (
+				EDD6965D27B489BA00E0A78F /* Sources */,
+				EDD6965E27B489BA00E0A78F /* Frameworks */,
+				EDD6965F27B489BA00E0A78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD6966327B489BA00E0A78F /* PBXTargetDependency */,
+			);
+			name = "SoundPad WatchKit AppUITests";
+			productName = "SoundPad WatchKit AppUITests";
+			productReference = EDD6966127B489BA00E0A78F /* SoundPad WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD6960627B489B800E0A78F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EDD6960D27B489B800E0A78F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EDD6961D27B489B900E0A78F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EDD6960D27B489B800E0A78F;
+					};
+					EDD6962727B489B900E0A78F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EDD6960D27B489B800E0A78F;
+					};
+					EDD6963127B489B900E0A78F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EDD6963C27B489B900E0A78F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EDD6965627B489BA00E0A78F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EDD6963C27B489B900E0A78F;
+					};
+					EDD6966027B489BA00E0A78F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EDD6963127B489B900E0A78F;
+					};
+				};
+			};
+			buildConfigurationList = EDD6960927B489B800E0A78F /* Build configuration list for PBXProject "SoundPad" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDD6960527B489B800E0A78F;
+			productRefGroup = EDD6960F27B489B800E0A78F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD6960D27B489B800E0A78F /* SoundPad */,
+				EDD6961D27B489B900E0A78F /* SoundPadTests */,
+				EDD6962727B489B900E0A78F /* SoundPadUITests */,
+				EDD6963127B489B900E0A78F /* SoundPad WatchKit App */,
+				EDD6963C27B489B900E0A78F /* SoundPad WatchKit Extension */,
+				EDD6965627B489BA00E0A78F /* SoundPad WatchKit AppTests */,
+				EDD6966027B489BA00E0A78F /* SoundPad WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDD6960C27B489B800E0A78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD6961927B489B800E0A78F /* Preview Assets.xcassets in Resources */,
+				EDD6961627B489B800E0A78F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6961C27B489B900E0A78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6962627B489B900E0A78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6963027B489B900E0A78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD6963827B489B900E0A78F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6963B27B489B900E0A78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD6965027B489BA00E0A78F /* Preview Assets.xcassets in Resources */,
+				EDD6964D27B489BA00E0A78F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6965527B489BA00E0A78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6965F27B489BA00E0A78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD6960A27B489B800E0A78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD6961427B489B800E0A78F /* ContentView.swift in Sources */,
+				EDD6961227B489B800E0A78F /* SoundPadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6961A27B489B900E0A78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD6962327B489B900E0A78F /* SoundPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6962427B489B900E0A78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD6962F27B489B900E0A78F /* SoundPadUITestsLaunchTests.swift in Sources */,
+				EDD6962D27B489B900E0A78F /* SoundPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6963927B489B900E0A78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD6964727B489B900E0A78F /* NotificationController.swift in Sources */,
+				EDD6964527B489B900E0A78F /* ContentView.swift in Sources */,
+				EDD6964B27B489B900E0A78F /* ComplicationController.swift in Sources */,
+				EDD6964327B489B900E0A78F /* SoundPadApp.swift in Sources */,
+				EDD6964927B489B900E0A78F /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6965327B489BA00E0A78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD6965C27B489BA00E0A78F /* SoundPad_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6965D27B489BA00E0A78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD6966627B489BA00E0A78F /* SoundPad_WatchKit_AppUITests.swift in Sources */,
+				EDD6966827B489BA00E0A78F /* SoundPad_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDD6962027B489B900E0A78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD6960D27B489B800E0A78F /* SoundPad */;
+			targetProxy = EDD6961F27B489B900E0A78F /* PBXContainerItemProxy */;
+		};
+		EDD6962A27B489B900E0A78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD6960D27B489B800E0A78F /* SoundPad */;
+			targetProxy = EDD6962927B489B900E0A78F /* PBXContainerItemProxy */;
+		};
+		EDD6963527B489B900E0A78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD6963127B489B900E0A78F /* SoundPad WatchKit App */;
+			targetProxy = EDD6963427B489B900E0A78F /* PBXContainerItemProxy */;
+		};
+		EDD6964027B489B900E0A78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD6963C27B489B900E0A78F /* SoundPad WatchKit Extension */;
+			targetProxy = EDD6963F27B489B900E0A78F /* PBXContainerItemProxy */;
+		};
+		EDD6965927B489BA00E0A78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD6963C27B489B900E0A78F /* SoundPad WatchKit Extension */;
+			targetProxy = EDD6965827B489BA00E0A78F /* PBXContainerItemProxy */;
+		};
+		EDD6966327B489BA00E0A78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD6963127B489B900E0A78F /* SoundPad WatchKit App */;
+			targetProxy = EDD6966227B489BA00E0A78F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDD6966927B489BA00E0A78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDD6966A27B489BA00E0A78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EDD6966C27B489BA00E0A78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoundPad WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 39L6M7499P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SoundPad WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SoundPad WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andermirik.SoundPad.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		EDD6966D27B489BA00E0A78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoundPad WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 39L6M7499P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SoundPad WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SoundPad WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andermirik.SoundPad.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		EDD6967027B489BA00E0A78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39L6M7499P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = SoundPad_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "SoundPad WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = andermirik.SoundPad;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andermirik.SoundPad.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		EDD6967127B489BA00E0A78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39L6M7499P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = SoundPad_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "SoundPad WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = andermirik.SoundPad;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andermirik.SoundPad.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		EDD6967427B489BA00E0A78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoundPad/Preview Content\"";
+				DEVELOPMENT_TEAM = 39L6M7499P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andermirik.SoundPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDD6967527B489BA00E0A78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoundPad/Preview Content\"";
+				DEVELOPMENT_TEAM = 39L6M7499P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andermirik.SoundPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDD6967727B489BA00E0A78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39L6M7499P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andermirik.SoundPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundPad.app/SoundPad";
+			};
+			name = Debug;
+		};
+		EDD6967827B489BA00E0A78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39L6M7499P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andermirik.SoundPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundPad.app/SoundPad";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDD6967A27B489BA00E0A78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39L6M7499P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andermirik.SoundPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoundPad;
+			};
+			name = Debug;
+		};
+		EDD6967B27B489BA00E0A78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39L6M7499P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andermirik.SoundPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoundPad;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDD6967D27B489BA00E0A78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39L6M7499P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "andermirik.SoundPad-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundPad WatchKit Extension.appex/SoundPad WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		EDD6967E27B489BA00E0A78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39L6M7499P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "andermirik.SoundPad-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundPad WatchKit Extension.appex/SoundPad WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		EDD6968027B489BA00E0A78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39L6M7499P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "andermirik.SoundPad-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SoundPad WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		EDD6968127B489BA00E0A78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39L6M7499P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "andermirik.SoundPad-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SoundPad WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD6960927B489B800E0A78F /* Build configuration list for PBXProject "SoundPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD6966927B489BA00E0A78F /* Debug */,
+				EDD6966A27B489BA00E0A78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD6966B27B489BA00E0A78F /* Build configuration list for PBXNativeTarget "SoundPad WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD6966C27B489BA00E0A78F /* Debug */,
+				EDD6966D27B489BA00E0A78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD6966F27B489BA00E0A78F /* Build configuration list for PBXNativeTarget "SoundPad WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD6967027B489BA00E0A78F /* Debug */,
+				EDD6967127B489BA00E0A78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD6967327B489BA00E0A78F /* Build configuration list for PBXNativeTarget "SoundPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD6967427B489BA00E0A78F /* Debug */,
+				EDD6967527B489BA00E0A78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD6967627B489BA00E0A78F /* Build configuration list for PBXNativeTarget "SoundPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD6967727B489BA00E0A78F /* Debug */,
+				EDD6967827B489BA00E0A78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD6967927B489BA00E0A78F /* Build configuration list for PBXNativeTarget "SoundPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD6967A27B489BA00E0A78F /* Debug */,
+				EDD6967B27B489BA00E0A78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD6967C27B489BA00E0A78F /* Build configuration list for PBXNativeTarget "SoundPad WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD6967D27B489BA00E0A78F /* Debug */,
+				EDD6967E27B489BA00E0A78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD6967F27B489BA00E0A78F /* Build configuration list for PBXNativeTarget "SoundPad WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD6968027B489BA00E0A78F /* Debug */,
+				EDD6968127B489BA00E0A78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDD6960627B489B800E0A78F /* Project object */;
+}
